@@ -1,5 +1,16 @@
 body {
-  background-color: #ff00ff;
   text-align: center;
   font-family: 'arial';
+  background-image: url('dale.jpg');
+  background-repeat: no-repeat;
+  background-size: 1500px 800px;
+}
+
+h1 {
+  color: #C0C0C0;
+}
+
+p {
+  font-size: 20px;
+  color: white;
 }
