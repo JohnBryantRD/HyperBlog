@@ -4,14 +4,34 @@ body {
   background-image: url('dale1.jpg');
   background-repeat: no-repeat;
   background-size: 1500px 800px;
+  color: #014a85;
 }
 
 .Container {
   width: 70%;
   padding: 1em;
-  border: 1px solid #c0c0c0;
   margin: 0 auto;
-  color: #f0f0f0;
+
+}
+.cabecera {
+  display: flex;
+  justify-content: center;
+}
+
+.Hyperblog {
+  color: #0a557a;
+  font-size: 30px;
+}
+
+
+.cabecera p {
+  margin: 0px;
+}
+
+.cabecera img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
 }
 
 .Container h1 {
@@ -21,4 +41,5 @@ body {
 .Container p{
   font-size: 23px;
   line-height: 25px;
+  font-size: 20px;
 }
